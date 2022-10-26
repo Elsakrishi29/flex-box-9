@@ -1,0 +1,74 @@
+
+*{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+.container{
+	width:100%;
+	margin:auto;
+	display:flex;
+	background-color:#0d042ed9;
+	justify-content:space-around;
+	align-items:stretch;
+	margin-top:180px;
+	padding:30px;
+}
+.list h1{
+	color:white;
+	line-height:50px;
+	font-size:45px;
+	font-family:sans-serif;
+}
+.list h1::first-letter{
+	color:aqua;
+}
+.list p{
+	color:#ab9b9b;
+	line-height:50px;
+	padding:5px;
+	
+}
+.para p{
+	color:#ab9b9b;
+	padding:5px;
+	
+	
+}
+.list a i{
+	color:#d7d1d1;
+	width:43px;
+	height:35px;
+	border:1px solid #d7d1d1;
+	border-radius:8px;
+	text-align:center;
+	padding:7px;
+	
+}
+.list h3{
+	line-height:50px;
+	color:white;
+	font-family:sans-serif;
+}
+.list3 h3{
+	line-height:50px;
+	color:white;
+	font-family:sans-serif;
+}
+.list3 p{
+	line-height:50px;
+	color:#ab9b9b;
+	
+}
+.list3 address{
+	position:relative;
+}
+.list3 address::after{
+	width:1250px;
+	border:1px solid #ab9b9b;
+	line-height:50px;
+	position:absolute;
+	content:"";
+	top:250px;
+	right:10px;
+}
